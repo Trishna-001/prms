@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
+        <center>
 		<div id="slideshow">
 			<div class="region region-slideshow">
 				<div id="block-block-4" class="block block-block">
@@ -17,6 +18,7 @@
                 </div>
             </div>
 		</div>
+</center>
 	</body>
 </html>
 
