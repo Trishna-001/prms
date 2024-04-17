@@ -1,0 +1,73 @@
+body {
+    background-image: url("http://localhost/prms/assets/images/back.jpg") ;
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat fixed center; /* This prevents the image from repeating */
+    /* You can add additional background properties here such as position */
+    /* For example: background-position: center center; */
+}
+
+#top {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 0 10px 0;
+}
+#top_inner {
+    width: 75%;
+    display: table;
+}
+#top_inner_inner {
+    display: table;
+    text-align: left;
+    float: left;
+}
+#logo {
+    display: table-cell;
+}
+#logo img {
+    width: 200px;
+    height: auto;
+    padding: 3px 3px 0 3px;
+    margin: 4px 0 0 0;
+}
+#name {
+    font-family: "Roboto Condensed";
+    color: #61afce;
+    font-size: 38.5px;
+    display: table-cell;
+    padding: 21px 0 4px 0;
+    vertical-align: bottom;
+    letter-spacing: -1.5px;
+    text-shadow: 1px 1px 1px #ddd7d7;
+}
+/***********************menu********************************/
+#main_menu_outer {
+    width: 100%;
+    display: block;
+    float: none;
+    z-index: 9999;
+    background-color: #;
+    padding: 0 0 7px 0;
+}
+#main_menu {
+    width: 75%;
+    font-size: 16.5px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 20px;
+    font-family: "Oswald";
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #cccccc;
+    letter-spacing: 0px;
+    margin: 0 0 0 -20px;
+}
+
+/***************slide*************************/
+#slideshow {
+    width: 75%;
+    padding: 20px 0 0 0;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "Roboto Condensed";
+}
