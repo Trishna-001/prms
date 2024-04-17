@@ -3,7 +3,7 @@
 	<head>
 		<title>Medical Record Management System</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="assets/menu_files/mbcsmbmcp.css" type="text/css" />
+		<link rel="stylesheet" href="common/menu_files/mbcsmbmcp.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
@@ -23,10 +23,10 @@
 			<li><div class="buttonbg"><a href="#"> Doctors</a></div>
 				<ul class="gradient_menu gradient188">
 					<li class="gradient_menuitem gradient31 first_item"><a href="doctors/add-doctor.php" title="">Add Doctor</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="secure.php" title=""> View List of Doctors</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="doctors/doctor-list.php" title=""> View List of Doctors</a></li>
 				</ul>
 			</li>
-			<li><div class="buttonbg"><a href="#">patients</a></div>
+			<li><div class="buttonbg"><a href="#">Patients</a></div>
 				<ul class="gradient_menu gradient188">
                     <li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patient by Mobile Number </a></li>
                     <li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patient by Patient ID</a></li>
@@ -42,7 +42,7 @@
 	<!-- Menus will work without this javascript file. It is used only for extra
 		 effects, improved usability, compatibility with very old web browsers
 		 and support for touch screen devices. -->
-	<script type="text/javascript" src="assets/menu_files/mbjsmbmcp.js"></script>
+	<script type="text/javascript" src="common/menu_files/mbjsmbmcp.js"></script>
 
 							</div>
 						</div>

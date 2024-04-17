@@ -53,6 +53,7 @@
     cursor: pointer;
     white-space: nowrap;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0 10px 0 0;
 }
 
 
@@ -111,11 +112,20 @@
 }
 
 #mbmcpebul_table ul li.subexpanded a.subexpanded, #mbmcpebul_table ul li.subitemhot a.subitemhot, #mbmcpebul_table ul li a:hover {
-  color: #000000;
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  margin-top: 18px;
+  margin-bottom: -20px;
+  width: 180px;
+  background-color: #ffffff;
+  border: 2px solid #666666;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  margin: 0 0 7px 0;
+font-size: 13px;
+  font-family: 'Roboto Condensed';
   text-decoration: none;
+  padding: 13px 10px 13px 10px;
+  margin: 0px -1px 0px 0px;
+  color: #ff0000;
 }
 
 #mbmcpebul_table ul li:hover, #mbmcpebul_table ul li.subexpanded, #mbmcpebul_table ul li.subitemhot {
@@ -136,7 +146,7 @@
 }
 
 #mbmcpebul_table ul li a {
-  padding: 8px 16px 8px 14px;
+  
   text-align: left;
 }
 
