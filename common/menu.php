@@ -3,8 +3,8 @@
 	<head>
 		<title>Medical Record Management System</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="common/menu_files/mbcsmbmcp.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="../common/menu_files/mbcsmbmcp.css" type="text/css" />
+		<link rel="stylesheet" href="../assets/css/style.css">
 	</head>
 	<body>
 		<center>
@@ -19,30 +19,30 @@
      The above limitations do not apply on menus created with the paid version of the software. -->
 	<div id="mbmcpebul_wrapper">
 		<ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
-			<li><div class="buttonbg"><a href="index.php">Home</a></div></li>
+			<li><div class="buttonbg"><a href="../home/index.php">Home</a></div></li>
 			<li><div class="buttonbg"><a href="#"> Doctors</a></div>
 				<ul class="gradient_menu gradient188">
-					<li class="gradient_menuitem gradient31 first_item"><a href="doctors/add-doctor.php" title="">Add Doctor</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="doctors/doctor-list.php" title=""> View List of Doctors</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="../doctors/add-doctor.php" title="">Add Doctor</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="../doctors/doctor-list.php" title=""> View List of Doctors</a></li>
 				</ul>
 			</li>
 			<li><div class="buttonbg"><a href="#">Patients</a></div>
 				<ul class="gradient_menu gradient188">
-                    <li class="gradient_menuitem gradient31 first_item"><a href="patients/search-patient-mobile-number.php" title="">Search Patient by Mobile Number </a></li>
-                    <li class="gradient_menuitem gradient31 first_item"><a href="patients/patient-id.php" title="">Search Patient by Patient ID</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="patients/patient-admitted-dates.php" title="">Search Patients admitted between two dates</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="patients/patients-admitted-particular-date.php" title="">Search Patients admitted on a particular Date</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="patients/patient-discharge.php" title="">Search Patients by Date of Discharge</a></li>
+                    <li class="gradient_menuitem gradient31 first_item"><a href="../patients/search-patient-mobile-number.php" title="">Search Patient by Mobile Number </a></li>
+                    <li class="gradient_menuitem gradient31 first_item"><a href="../patients/patient-id.php" title="">Search Patient by Patient ID</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="../patients/patient-admitted-dates.php" title="">Search Patients admitted between two dates</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="../patients/patients-admitted-particular-date.php" title="">Search Patients admitted on a particular Date</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="../patients/patient-discharge.php" title="">Search Patients by Date of Discharge</a></li>
                 </ul>
 			</li>
-			<li><div class="buttonbg"><a href="login/login.php">Login </a></div></li>
-			<li><div class="buttonbg"><a href="department/department.php">Department</a></div></li>
+			<li><div class="buttonbg"><a href="../login/login.php">Login </a></div></li>
+			<li><div class="buttonbg"><a href="../department/department.php">Department</a></div></li>
 		</ul>
 	</div>
 	<!-- Menus will work without this javascript file. It is used only for extra
 		 effects, improved usability, compatibility with very old web browsers
 		 and support for touch screen devices. -->
-	<script type="text/javascript" src="common/menu_files/mbjsmbmcp.js"></script>
+	<script type="text/javascript" src="../common/menu_files/mbjsmbmcp.js"></script>
 
 							</div>
 						</div>

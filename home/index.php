@@ -7,11 +7,11 @@
 
     </head>
     <body>
-        <?php include("common/top.php"); ?>
-        <?php include("common/menu.php"); ?>
-        <!--<?php include("common/slideshow.php"); ?>-->
+        <?php include("../common/top.php"); ?>
+        <?php include("../common/menu.php"); ?>
+        <!--<?php include("../common/slideshow.php"); ?>-->
         <br>
         <?php include("home.php"); ?>
-        <!--<?php include("common/footer.php"); ?>-->
+        <!--<?php include("../common/footer.php"); ?>-->
     </body>
 </html>
