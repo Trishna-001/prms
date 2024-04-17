@@ -28,15 +28,15 @@
 			</li>
 			<li><div class="buttonbg"><a href="#">Patients</a></div>
 				<ul class="gradient_menu gradient188">
-                    <li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patient by Mobile Number </a></li>
-                    <li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patient by Patient ID</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patients admitted between two dates</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patients admitted on a particular Date</a></li>
-					<li class="gradient_menuitem gradient31 first_item"><a href="#" title="">Search Patients by Date of Discharge</a></li>
+                    <li class="gradient_menuitem gradient31 first_item"><a href="patients/search-patient-mobile-number.php" title="">Search Patient by Mobile Number </a></li>
+                    <li class="gradient_menuitem gradient31 first_item"><a href="patients/patient-id.php" title="">Search Patient by Patient ID</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="patients/patient-admitted-dates.php" title="">Search Patients admitted between two dates</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="patients/patients-admitted-particular-date.php" title="">Search Patients admitted on a particular Date</a></li>
+					<li class="gradient_menuitem gradient31 first_item"><a href="patients/patient-discharge.php" title="">Search Patients by Date of Discharge</a></li>
                 </ul>
 			</li>
-			<li><div class="buttonbg"><a href="login.php">Login </a></div></li>
-			<li><div class="buttonbg"><a href="department.php">Department</a></div></li>
+			<li><div class="buttonbg"><a href="login/login.php">Login </a></div></li>
+			<li><div class="buttonbg"><a href="department/department.php">Department</a></div></li>
 		</ul>
 	</div>
 	<!-- Menus will work without this javascript file. It is used only for extra
