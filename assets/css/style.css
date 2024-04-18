@@ -71,3 +71,40 @@ body {
     line-height: 25px;
     font-family: "Roboto Condensed";
 }
+
+/****************************pages*************/
+#content_outer {
+    width: 100%;
+    display: block;
+    float: none;
+    text-align: justify;
+}
+#content_inner {
+    display: table;
+    width: 75%;
+    text-align: left;
+}
+#content {
+    text-align: justify;
+    display: table-cell;
+    padding: 20px 0 0 10px;
+    font-family: "Archivo Narrow";
+    font-size: 13px;
+    line-height: 28px;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    border-bottom: 3px solid #ccc;
+    padding-right: 1em;
+    text-align: left;
+}
+tbody {
+    border-top: none;
+}
+tr.even {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    padding: 0.1em 0.6em;
+}
