@@ -2,8 +2,9 @@
     <head>
         <title>Medical Record Management System</title>
         <link href="../assets/css/style.css" rel="stylesheet">
-        
-        
+        <link href="../assets/css/doctor.css" rel="stylesheet">
+
+        <script src="../assets/js/doctor.js"></script>
 
     </head>
     <body>
