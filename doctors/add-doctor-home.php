@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Add Doctor Details</h1>
-        <form action="save_doctor.php" method="post" onsubmit="return validateForm()">
+        <form action="saveDoctorDetails.php" method="post" onsubmit="return validateForm()">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required>
 
